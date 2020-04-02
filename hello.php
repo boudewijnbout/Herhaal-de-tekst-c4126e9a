@@ -1,10 +1,9 @@
 <?php
 
-    $tekst = "Hallo" . "\n";
+    $tekst = 1;
 
-    print $tekst;
-    print $tekst;
-    print $tekst;
-    print $tekst;
-    print $tekst;
+    while ($tekst <= 5) {
+        echo "Dit is een voorbeeld <br>";
+        $tekst++;
+    }
 ?>
